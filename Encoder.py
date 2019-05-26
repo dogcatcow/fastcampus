@@ -4,7 +4,7 @@ FASTCAMPUS PROGRAMMING SCHOOL APPLICANT (c)
 2019.5.26. 
 '''
 
-#10진수(소수) -> 2진법 변환
+#10진수(소수) -> 2진수 변환
 
 nm = float(input("Num?"))
 box = []
