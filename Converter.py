@@ -1,32 +1,9 @@
 '''
-"DBOH" ENCODER ALGORITHM by SD CHOI,
+CONVERTER ALGORITHM by SD CHOI,
 FASTCAMPUS PROGRAMMING SCHOOL APPLICANT (c)
 2019.5.26. 
 '''
-
-#10진수(소수) -> 2진수 변환
-
-nm = float(input("Num?"))
-box = []
-fm = nm*2
-while fm > 0:
-    if fm > 1:
-        sm = int(fm)
-        box.append(sm)
-        fm -= 1
-        fm *= 2
-        if fm > 1 and nm <= 0.9999:
-            break
-    elif fm < 1:
-        sm = int(fm)
-        box.append(sm)
-        fm *= 2
-    elif fm == 1:
-        sm = int(fm)
-        box.append(sm)
-        break
-
-#10진수 -> 2진수 변환
+#10진수 ->2진수 
 
 nm = int(input("Num?"))
 box = []
@@ -41,7 +18,8 @@ if nm == 1:
 xob = box[::-1]
 print(xob)
 
-#10진수 -> 8진수 변환
+
+#10진수 ->8진수 
 
 nm = int(input("Num?"))
 box = []
@@ -56,7 +34,8 @@ if nm == 1:
 xob = box[::-1]
 print(xob)
 
-#10진수 -> 16진수 변환
+#10진수 ->16진수 
+
 
 nm = int(input("Num?"))
 box = []
@@ -71,10 +50,10 @@ if nm == 1:
 xob = box[::-1]
 hset = []
 
-for i in xob:
+for i in xob:    
     if i == 10:
         hset.append("A")
-    elif i == 11:
+    elif i == 11: 
         hset.append("B")
     elif i == 12:
         hset.append("C")
@@ -84,6 +63,8 @@ for i in xob:
         hset.append("E")
     elif i == 15:
         hset.append("F")
-    else:
+    else:  
         hset.append(i)
+print(hset)
+
 
