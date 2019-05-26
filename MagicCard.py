@@ -1,3 +1,9 @@
+'''
+MAGIC CARD ALGORITHM by SD CHOI,
+FASTCAMPUS PROGRAMMING SCHOOL APPLICANT (C)
+2019.5.26. 
+'''
+
 fcard = ["/1/","/3/","/5/","/7/"]
 scard = ["/2/","/3/","/6/","/7/"]
 tcard = ["/4/","/5/","/6/","/7/"]
